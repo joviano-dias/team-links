@@ -1,8 +1,9 @@
 # Applications
 ---
-#title: DieselDC Inc.
+title: DieselDC Inc.
 maintainer: jovianod10@gmail.com
 config_file: https://github.com/example/my-links.yaml
+org_slack_url: https://dieseldc.slack.com
 
 applications:
 - name: Facebook
@@ -10,35 +11,35 @@ applications:
   slack: facebook-engineering
   environments:
     staging:
-      url: http://www.example.org/google-staging
+      url: https://github.com/joviano-dias/team-links
       login_user: myusername
       login_password: mypassword
-      notes: You can also create an account to use at https://www.example.org/live-register
+      notes: You can also create an account to use at https://github.com/joviano-dias/team-links
     live:
-      url: http://www.example.org/google-live
-      notes: You can also create an account to use at https://www.example.org/staging
+      url: https://github.com/joviano-dias/team-links
+      notes: You can also create an account to use at https://github.com/joviano-dias/team-links
     qa:
-      url: http://www.example.org/google-QA
+      url: https://github.com/joviano-dias/team-links
       login_user: myusername
       login_password: mypassword
 
 - name: Google
   team: Algo-Search
-  slack: ask-algo-search-team
+#  slack: ask-algo-search-team
   environments:
     algorithm:
-      url: https://example.org/binary
+      url: https://google.com/search?q=algo
     binary:
-      url: https://example.org/binary
+      url: https://google.com/search?q=binary
 
 - name: IKEA
   team: Furniture-Wiz
   slack: ask-ikea-slack
   environments:
     ivar:
-      url: https://example.org/ivar
+      url: https://google.com/search?q=ivar
       login_user: myusername
       login_password: mypassword
     hejne:
-      url: https://example.org/hejne
+      url: https://google.com/search?q=hejne
       notes: You can also buy your HEJNE stuff here

@@ -57,8 +57,13 @@ body
                             span#slack_link
                                 // <span class="slack_tooltip">x#ask-stoa-author</span>
                                 .url_box
-                                    a(href=locals.org_slack_url + app.slack target="_blank")
-                                        img(src='slack_icon.png')
+                                    if(locals.org_slack_url !== undefined)
+                                        if(app.slack !== undefined)
+                                            a(href=locals.org_slack_url + app.slack target="_blank")
+                                                img(src='slack_icon.png' alt=app.slack)
+                                    else
+                                        if(app.slack !== undefined)
+                                            img(src='slack_icon.png' alt=app.slack)
 
                             div#app_info_box.app-info(app-info-id=count style="display: none;")
                                 div.url.url_text_area

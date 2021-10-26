@@ -1,6 +1,6 @@
 
 # Team Links
-A tool to manage your team's (or personal) links / bookmarks. All links need to be configured in a yaml file.
+A tool to manage your team's (or personal) application links / bookmarks
 
 
 Screenshot
@@ -26,9 +26,10 @@ Configuration
 ```
 # Applications
 ---
-title: DieselDC Inc. [optional]
-maintainer: https://www.dieseldc.com [optional]
-github_config: https://github.com/dieseldc/my-links.yaml [optional]
+title: DieselDC Inc. [optional, used in search text field]
+maintainer: https://www.dieseldc.com [optional, used to link maintainer person in app footer]
+org_slack_url: https://springernature.slack.com [optional, used to render slack channel links]
+github_config: https://github.com/dieseldc/my-links.yaml [optional, used to allows users to edit the yaml file]
 ```
 
 ##### Adding Applications
