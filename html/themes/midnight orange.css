@@ -1,0 +1,13 @@
+:root {
+    --pagebackground: #39434D;
+    --textcolor: #ADBED1;
+    --activelinkcolor: #ffffff;
+    
+    --appboxcolor: #272e35;
+    --apptextcolor: #ADBED1;
+    --appactivecolor: #d66000;
+    --appactivetextcolor: #e3e3e3;
+    --appselectedlinkcolor: #F3B200;
+    --appinsidecolor: #c45603;
+    --appinsidetextcolor: #e3e3e3;
+}

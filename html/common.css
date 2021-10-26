@@ -1,0 +1,315 @@
+body {
+    background-color: var(--pagebackground);
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.app_url {
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.copyclip {
+    cursor: pointer;
+}
+
+#slack_link {
+    float: right;
+    opacity: 70%;
+}
+
+#slack_link img {
+    height: 15px;
+    width: 15px;
+}
+
+div #app_info_box a:active,
+div #app_info_box a:link,
+div #app_info_box a:visited {
+    color: var(--activelinkcolor);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#slack_link img:hover {
+    margin-top: -4px;
+    height: 18px;
+    width: 18px;
+}
+
+.slack_tooltip {
+    visibility: hidden;
+}
+
+.slack_tooltip:hover {
+    visibility: visible;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+li {
+    margin: 1px;
+}
+
+#support_information {
+    /*font-family: 'Varela Round', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    color: var(--textcolor);
+}
+
+#support_information a:link,
+#support_information a:visited,
+#support_information a:hover,
+#support_information a:active {
+    color: var(--appselectedlinkcolor);
+}
+
+.app_url_link_active {
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--appinsidecolor);
+    color: var(--appselectedlinkcolor) !important;
+}
+
+.app_details_text_area {
+    margin-top: 7px;
+    width: 95%;
+    height: 75px;
+    padding: 7px 7px 7px 10px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    overflow-y: scroll;
+    resize: none;
+    color: var(--appinsidetextcolor);
+    background-color: var(--appinsidecolor);
+}
+
+.app_login_text_area {
+    margin-top: 7px;
+    width: 95%;
+    height: 20px;
+    padding: 7px 7px 7px 10px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    overflow-y: scroll;
+    resize: none;
+    color: var(--appinsidetextcolor);
+    background-color: var(--appinsidecolor);
+}
+
+.app {
+    /*cursor: pointer;*/
+}
+
+.url_text_area {
+    width: 460px;
+    padding: 5px;
+    /*font-family: 'Varela Round', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    /*overflow-wrap: break-word;*/
+    /*word-break: break-all;*/
+}
+
+.url_span {
+    display: inline-block;
+}
+
+/*.vertical {*/
+/*    top: 250px;*/
+/*    position:relative;*/
+/*    width:100px;*/
+/*    white-space:nowrap;*/
+/*    -ms-transform:rotate(270deg);*/
+/*    -moz-transform:rotate(270deg);*/
+/*    -webkit-transform:rotate(270deg);*/
+/*    -o-transform:rotate(270deg);*/
+
+/*    font-family: 'Varela Round', sans-serif;*/
+/*    font-size: 80px;*/
+/*    !*font-weight: bold;*!*/
+/*    margin-left: 150px;*/
+/*    color: var(--textcolor);*/
+/*    !*opacity: 40%;*!*/
+/*}*/
+
+.center {
+    margin: auto;
+    width: 47%;
+    /*border: 5px solid #FFFF00;*/
+    padding: 10px;
+}
+
+#my_div_button {
+    /*font-family: 'Varela Round', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
+    font-size: small;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    width: 500px;
+    text-align: center;
+}
+
+#go_to_url {
+    /*font-family: 'Varela Round', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
+    font-size: small;
+    /*font-weight: bold;*/
+    color: var(--textcolor);
+    margin-left: 10px;
+}
+
+.go_url a:link,
+.go_url a:visited {
+    color: var(--textcolor);
+    text-decoration: none;
+}
+
+.go_url a:active {
+    color: var(--activelinkcolor);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.go_url a:hover {
+    color: var(--activelinkcolor);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#sipper {
+    /*font-family: 'Varela Round', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
+    font-size: small;
+    margin-left: 35px;
+    color: var(--textcolor);
+}
+
+div #app_info_box {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+div #app_name {
+    /*font-weight: 400;*/
+}
+
+div #app_container {
+    /*font-family: 'Varela Round', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
+    /*font-weight: 900;*/
+
+    margin-bottom: -1px;
+    color: var(--apptextcolor);
+    background-color: var(--appboxcolor);
+
+    border: 1px solid var(--appboxcolor);
+    /*border-radius: 10px 10px 10px 10px;*/
+    /*-moz-border-radius: 10px;*/
+    /*-webkit-border-radius: 10px;*/
+    /*-khtml-border-radius: 10px;*/
+    text-align: left;
+
+    box-shadow: 0 0 1px var(--appactivecolor);
+    padding: 16px 16px 20px 25px;
+}
+
+#application {
+    /*width: 600px;*/
+}
+
+div #app_container:hover:not(.header) {
+    background-color: var(--appactivecolor);
+    color: var(--appactivetextcolor);
+}
+
+div #app_container[active="no"]:hover {
+    cursor: pointer;
+}
+
+div #app_container[active="yes"] {
+    background-color: var(--appactivecolor);
+    color: var(--appactivetextcolor);
+    box-shadow: 0 0 3px var(--appboxcolor);
+}
+
+div #app_container a:hover {
+    text-decoration: underline;
+    color: var(--appselectedlinkcolor);
+}
+
+.app_specifics {
+    margin-top: 12px;
+    /*font-family: 'Noto Sans Mono', monospace;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.app_login_text_area {
+    margin-top: 10px;
+}
+
+#search_box:focus {
+    outline: none !important;
+}
+
+.search-box {
+    background-image: url('searchicon.png'),url('x-grey.png');
+    background-blend-mode: luminosity,luminosity;
+    background-position: 0 6px, right -25px center;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 42px 40px,15px 15px;
+
+
+    width: 330px;
+    /*font-family: 'Varela Round', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    padding: 12px 20px 12px 45px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: var(--appactivecolor);
+    color: var(--appinsidetextcolor);
+    border: 0px;
+    border-radius: 4px;
+}
+
+.theme-area {
+    color: var(--apptextcolor);
+}
+
+/* (jQ addClass:) if input has value: */
+.search-box.x{
+    background-position: 0 6px, right 15px center;
+    transition: background 0.4s; /*Remove this line if issues in Chrome (02.2014)*/
+}
+/* (jQ addClass:) if mouse is over the 'x' input area*/
+.search-box.onX{
+    cursor:pointer;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--appactivetextcolor);
+    opacity: 0.8; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--appactivetextcolor);
+}

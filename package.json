@@ -1,0 +1,24 @@
+{
+  "name": "stoa-links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-links-web": "node index.js"
+  },
+  "engines": {
+    "node": ">=0.16.5"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "js-yaml": "^3.14.0",
+    "jsonpath": "^1.0.2",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "require-yml": "^2.0.0"
+  }
+}

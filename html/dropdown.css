@@ -1,0 +1,55 @@
+/* Dropdown Button */
+.dropbtn {
+    background-color: var(--appboxcolor);
+    color: var(--apptextcolor);
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 24px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    color: var(--appinsidetextcolor);
+    background-color: var(--appinsidecolor);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    font-size: small;
+    border-radius: 13px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: var(--apptextcolor);
+    background-color: var(--appboxcolor);
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 13px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: var(--apptextcolor);
+    background-color: var(--appboxcolor);
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: var(--appactivecolor);
+    color: var(--appactivetextcolor);
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
