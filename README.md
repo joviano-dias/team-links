@@ -26,7 +26,7 @@ Run
 Configuration
 ---
 
-##### Base Configuration
+### Base Configuration
 ```
 # Applications
 ---

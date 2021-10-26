@@ -31,6 +31,6 @@ app.get('/', function (req, res) {
 })
 
 
-app.listen(port, () => {
-    console.log(`Team links app started`)
+app.listen(process.env.PORT || 8080, () => {
+    console.log(`Team links app started on ` + (process.env.PORT || 8080))
 })
