@@ -6,15 +6,19 @@ A tool to manage your team's (or personal) application links / bookmarks
 Screenshot
 ---
 ![alt text](./html/demo.png)
-###### Install
+
+Install
+---
 
  `npm install`
 
-###### Configure
+Configure
+---
 
  Add your application/websites to the [config/my-links.yaml](./config/my-links.yaml) file
 
-###### Run
+Run
+---
   
  Run the application `npm start`
 
@@ -39,7 +43,7 @@ Under `applications:`, add the following minimum to add a new application to the
 applications: 
 - name: Facebook [Name of the application] 
   team: Facebook-ReEngineer [optional]
-  slack: facebook-engineering [Slack channel for the application]
+  slack: facebook-engineering [optional, slack channel for the application]
   environments: 
     googol-staging: [Can be anything]
       url: http://www.example.org/google-staging [required]
