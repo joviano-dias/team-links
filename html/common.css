@@ -210,6 +210,14 @@ div #app_name {
     /*font-weight: 400;*/
 }
 
+li:first-child .appcon {
+    border-radius: 10px 10px 0 0;
+}
+
+li:last-child .appcon {
+    border-radius: 0 0 10px 10px;
+}
+
 div #app_container {
     /*font-family: 'Varela Round', sans-serif;*/
     font-family: 'Nunito', sans-serif;

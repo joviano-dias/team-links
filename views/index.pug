@@ -1,6 +1,5 @@
 doctype html
 head
-    link(rel='stylesheet' href='clean-switch.css')
     link(rel='stylesheet' href='common.css')
     link(rel='stylesheet' href='dropdown.css')
     link(rel="preconnect" href="https://fonts.googleapis.com")
@@ -52,7 +51,7 @@ body
                 - let count = 0
                 each app in apps
                     li#app_li
-                        #app_container.app(app-id=++count active="no")
+                        #app_container.app(app-id=++count active="no" class="appcon")
                             span#app_name #{app.name}
                             span#slack_link
                                 // <span class="slack_tooltip">x#ask-stoa-author</span>
@@ -93,5 +92,5 @@ body
             if(locals.maintainer !== undefined)
                 #support_information
                     span Mail &nbsp;
-                        a(href=locals.maintainer + "stoa-qa" target="_blank") #{locals.maintainer}
+                        a(href='mailto:' + locals.maintainer target="_blank") #{locals.maintainer}
                         | &nbsp;for support & improvements
